@@ -12,9 +12,11 @@ Install project:
         flutter pub get
 
 Generate apk:
+
     flutter build apk
 
 Testing:
+
     Run builder generate mock:
         flutter pub run build_runner build
     Run test:
