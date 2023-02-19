@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:prueba_omni_pro/models/album_model.dart';
 import 'package:prueba_omni_pro/provider/album_provider.dart';
 import 'package:prueba_omni_pro/ui/widgets/card_album.dart';
+import 'package:prueba_omni_pro/ui/widgets/error_widget.dart';
 
 class ListAlbums extends StatefulWidget {
   const ListAlbums({super.key});
@@ -57,7 +58,7 @@ class _ListAlbumsState extends State<ListAlbums> {
               return const Text('Error');
             }
           } else {
-            return const Text('Error');
+            return const CustomErrorWidget();
           }
         });
   }
