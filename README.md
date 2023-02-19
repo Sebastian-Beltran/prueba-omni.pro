@@ -19,5 +19,6 @@ Testing:
 
     Run builder generate mock:
         flutter pub run build_runner build
+        
     Run test:
         flutter test
